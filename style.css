@@ -1,0 +1,259 @@
+
+/* general styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+ body{
+     color: white;
+     width:30%
+    
+ }
+
+
+ .wrapper{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    
+    
+    
+}
+.sedans-img{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.sedans{
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.abt-sedens{
+    padding-top: 50px;margin-left: auto;
+    margin-right: auto;
+    width: 11em
+    
+
+}
+
+.sed-foter{
+    padding-top:60px;
+    padding-left: 30px;
+    border-radius: 25px;
+
+}
+
+.btn1{
+    width:120px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-align: center;
+    color:orange
+    
+    
+}
+ .suvs-img{
+    padding-top: 50px;
+    padding-left: 30px;
+ }
+ .suvs{
+    padding-top: 35px;
+    padding-left: 25px;  
+ }
+
+ .abt-suvs{
+    padding-top: 50px;margin-left: auto;
+    margin-right: auto;
+    width: 11em 
+ }
+ .suvs-foter{
+    padding-top:60px;
+    padding-left: 30px;
+    border-radius: 25px;
+ }
+ .btn2{
+    width:120px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-align: center;
+    color:rgb(58, 87, 58)
+
+ }
+
+ .luxury-img{
+   
+    padding-top: 50px;
+    padding-left: 30px;
+
+ }
+ .luxery{
+    padding-top: 35px;
+    padding-left: 25px;   
+ }
+ 
+ .abt-luxery{
+    padding-top: 50px;margin-left: auto;
+    margin-right: auto;
+    width: 11em   
+ }
+ .luxery-foter{
+    padding-top:60px;
+    padding-left: 30px;
+    border-radius: 25px;
+ }
+ .btn3{
+    width:120px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-align: center;
+    color: rgb(66, 64, 64); 
+ }
+div{
+    width:300px; height:500px;
+
+    border:2px solid;align-items: center;
+    }
+    .box1{
+        background-color:orange
+    }
+    .box2{
+        background-color: rgb(58, 87, 58);
+    }
+    .box3{
+        background-color: rgb(66, 64, 64);
+    }
+  /*media quaries*/
+  
+
+  @media screen and (max-width:767px) and (orientation:portrait){
+    body{
+        color: white;
+        font-size: xx-small;
+        text-align: justify;
+        width:10%
+    
+       
+    }
+ 
+    .wrapper{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .sedans{
+    padding-top: 17px;
+    padding-left: 35px;
+    font-size: xx-small;
+}
+
+.abt-sedens{
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-small;
+    width: 15em
+    
+
+}
+.sed-foter{
+    padding-top:30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+
+
+}
+
+.btn1{
+    width:70px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-align: center;
+    color:orange
+}
+
+.suvs{
+    padding-top: 17px;
+    padding-left: 35px;
+    font-size: xx-small;
+}
+
+.abt-suvs{
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-small;
+    width: 15em
+    
+
+}
+.suvs-foter{
+    padding-top:30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+
+
+}
+
+.btn2{
+    width:70px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-align: center;
+    color:rgb(58, 87, 58)
+}
+
+
+.luxery{
+    padding-top: 17px;
+    padding-left: 35px;
+    font-size: xx-small;
+}
+
+.abt-luxery{
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-small;
+    width: 15em
+    
+
+}
+.luxery-foter{
+    padding-top:30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+
+
+}
+
+.btn3{
+    width:70px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-align: center;
+    color:rgb(58, 87, 58)
+}
+
+}
+
+
+    
